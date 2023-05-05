@@ -25,7 +25,7 @@ void swap_ints(int *a, int *b)
  * @array: An array of integers.
  * @size: The size of the array.
  * @start: The starting index of the sequence in array to sort.
- * @seq: The size of the sequence to sorts.
+ * @seq: The size of the sequence to sort.
  * @flow: The direction to sort in.
  */
 void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
@@ -75,12 +75,12 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow)
 
 /**
  * bitonic_sort - Sort an array of integers in ascending
- *                order using the bitonic sort algorithms.
+ *                order using the bitonic sort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
  *
- * Description: Prints the array after each swap. 
- * Only works for size = 2^k where k >= 0 (ie. size equal to powers of 2).
+ * Description: Prints the array after each swap. Only works for
+ * size = 2^k where k >= 0 (ie. size equal to powers of 2).
  */
 void bitonic_sort(int *array, size_t size)
 {
